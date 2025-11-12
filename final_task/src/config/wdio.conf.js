@@ -21,7 +21,7 @@ exports.config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './src/features/**/*.feature'
+        '../features/**/*.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -53,8 +53,6 @@ exports.config = {
         browserName: 'chrome'
     }, {
         browserName: 'firefox'
-    }, {
-        browserName: 'MicrosoftEdge'
     }],
 
     //
@@ -66,6 +64,7 @@ exports.config = {
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'info',
     //
+    outputDir: '../../logs',
     // Set specific log levels per logger
     // loggers:
     // - webdriver, webdriverio
@@ -104,7 +103,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    // services: [],
+    services: ['webdriver'],
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -132,7 +131,7 @@ exports.config = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['./src/features/step-definitions/**/*.js'],
+        require: ['../features/step-definitions/**/*.js'],
         // <boolean> show full backtrace for errors
         backtrace: false,
         // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
