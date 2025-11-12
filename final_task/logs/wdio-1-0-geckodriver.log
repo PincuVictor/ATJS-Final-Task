@@ -1,0 +1,53 @@
+1762988802727	geckodriver	INFO	Listening on 0.0.0.0:54638
+1762988802849	mozrunner::runner	INFO	Running command: "C:\\Users\\Victor\\AppData\\Local\\Temp\\firefox\\win64-nightly_147.0a1\\firefox\\firefox.exe" "--marionett ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Victor\\AppData\\Local\\Temp\\rust_mozprofileuXeatY"
+Dynamically enable window occlusion 0
+1762988803343	Marionette	INFO	Marionette enabled
+1762988803491	Marionette	INFO	Listening on port 62103
+WebDriver BiDi listening on ws://127.0.0.1:62104
+Read port: 62103
+console.error: RSLoader: 
+  Failed to retrieve recipes from Remote Settings
+  Message: Error: Could not sync nimbus-desktop-experiments: get-exception
+  Stack:
+    RemoteSettingsSyncError@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:1328:5
+getRecipesFromCollection@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:618:13
+
+1762988806638	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:56613
+console.error: (new NotFoundError("Could not find fa0fc42c-d91d-fca7-34eb-806ff46062dc in cache or dump", "resource://services-settings/Attachments.sys.mjs", 48))
+console.warn: "Unable to find the attachment for" "fa0fc42c-d91d-fca7-34eb-806ff46062dc"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+1762988815015	Marionette	INFO	Stopped listening on port 62103
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 11
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":28,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":27,"lineNumber":273,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":27,"lineNumber":224,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":27,"lineNumber":435,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":25,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":25,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:435:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:224:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:435:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:273:15\nfetch@resource://services-settings/Utils.sys.mjs:224:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:435:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:273:15\nfetch@resource://services-settings/Utils.sys.mjs:224:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:435:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:273:15|fetch@resource://services-settings/Utils.sys.mjs:224:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:435:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]

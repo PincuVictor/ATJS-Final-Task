@@ -21,5 +21,8 @@
     "eslint": "^9.39.1",
     "globals": "^16.5.0",
     "wdio-webdriver-service": "^1.0.1"
+  },
+  "dependencies": {
+    "@wdio/globals": "^9.17.0"
   }
 }

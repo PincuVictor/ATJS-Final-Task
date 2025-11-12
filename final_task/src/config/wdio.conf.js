@@ -64,7 +64,7 @@ exports.config = {
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'info',
     //
-    outputDir: '../../logs',
+    outputDir: 'logs',
     // Set specific log levels per logger
     // loggers:
     // - webdriver, webdriverio
@@ -131,7 +131,7 @@ exports.config = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['../features/step-definitions/**/*.js'],
+        require: ['src/features/step-definitions/**/*.js'],
         // <boolean> show full backtrace for errors
         backtrace: false,
         // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)

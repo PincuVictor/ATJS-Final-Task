@@ -1,0 +1,291 @@
+2025-11-12T23:06:41.443Z INFO @wdio/local-runner: Run worker command: run
+2025-11-12T23:06:42.133Z INFO webdriver: Initiate new session using the WebDriver protocol
+2025-11-12T23:06:42.702Z INFO webdriver: Setting up firefox vnightly_147.0a1
+2025-11-12T23:06:42.708Z INFO geckodriver: Starting Geckodriver at C:\Users\Victor\AppData\Local\Temp\geckodriver.exe with params: --port=54638 --allow-hosts=localhost --host=0.0.0.0 --websocket-port=0
+2025-11-12T23:06:42.822Z INFO @wdio/utils: Started GeckoDriver in 485ms on port 54638
+2025-11-12T23:06:42.824Z INFO webdriver: [POST] http://localhost:54638/session
+2025-11-12T23:06:46.627Z INFO webdriver: Register BiDi handler for session with id 25ed758f-0d15-43be-a50d-5d1254a0ee9d
+2025-11-12T23:06:46.628Z INFO webdriver: Connecting to webSocketUrl ws://127.0.0.1:62104/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d
+2025-11-12T23:06:46.642Z INFO webdriver: Connected to Bidi protocol at ws://127.0.0.1:62104/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d
+2025-11-12T23:06:46.642Z INFO webdriver: Connected to WebDriver Bidi interface at ws://127.0.0.1:62104/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d
+2025-11-12T23:06:46.644Z INFO webdriver: COMMAND getWindowHandle()
+2025-11-12T23:06:46.646Z INFO webdriver: BIDI COMMAND browsingContext.getTree {}
+2025-11-12T23:06:46.647Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.contextCreated"]}
+2025-11-12T23:06:46.647Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["log.entryAdded","browsingContext.navigationStarted"]}
+2025-11-12T23:06:46.648Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[1319 bytes]>, contexts: undefined }
+2025-11-12T23:06:46.648Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted","browsingContext.fragmentNavigated","network.responseCompleted","network.beforeRequestSent","network.fetchError"]}
+2025-11-12T23:06:46.649Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.userPromptOpened"]}
+2025-11-12T23:06:46.649Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted"]}
+2025-11-12T23:06:46.649Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/window
+2025-11-12T23:06:46.662Z INFO webdriver: BIDI RESULT {"type":"success","id":1,"result":{"contexts":[{"children":[],"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"9b0ba979-e9e7-49f5-88e6-dd4f10a502ff","parent":null}]}}
+2025-11-12T23:06:46.663Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id ff12155b-4da4-4a7a-b0e1-a7cc94c86c18
+2025-11-12T23:06:46.663Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":[],"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"9b0ba979-e9e7-49f5-88e6-dd4f10a502ff","parent":null},"awaitPromise":false}
+2025-11-12T23:06:46.663Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[443 bytes]>, contexts: ["ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"] }
+2025-11-12T23:06:46.688Z INFO webdriver: BIDI RESULT {"type":"success","id":7,"result":{"subscription":"0281b25b-34b7-4260-ab1d-24d0d6bfd5c7"}}
+2025-11-12T23:06:46.693Z INFO webdriver: BIDI RESULT {"type":"success","id":2,"result":{"subscription":"4bd89a97-a006-4119-9165-86fc57f0638d"}}
+2025-11-12T23:06:46.693Z INFO webdriver: BIDI RESULT {"type":"success","id":3,"result":{"subscription":"122c39e8-30dd-46c7-9f12-20dd965a1550"}}
+2025-11-12T23:06:46.693Z INFO webdriver: BIDI RESULT {"type":"success","id":4,"result":{"script":"feb12c2f-8500-4113-bb42-9494f2ada7f2"}}
+2025-11-12T23:06:46.693Z INFO webdriver: BIDI RESULT {"type":"success","id":5,"result":{"subscription":"f7f25800-91ca-4ba3-a8db-3e9cf9abd4af"}}
+2025-11-12T23:06:46.694Z INFO webdriver: BIDI RESULT {"type":"success","id":6,"result":{"subscription":"78254a00-8874-407f-b35a-8b72d4492168"}}
+2025-11-12T23:06:46.696Z INFO webdriver: RESULT ff12155b-4da4-4a7a-b0e1-a7cc94c86c18
+2025-11-12T23:06:46.697Z INFO webdriver: BIDI RESULT {"type":"success","id":8,"result":{"realm":"80542d7a-105a-483e-9ca8-fd169ad627f9","type":"success","result":{"type":"undefined"}}}
+2025-11-12T23:06:46.697Z INFO webdriver: BIDI RESULT {"type":"success","id":9,"result":{"script":"6f5ca53f-98b3-4335-82ad-7cf47945cdf2"}}
+2025-11-12T23:06:46.853Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18","url":"https://www.saucedemo.com/","wait":"complete"}
+2025-11-12T23:06:47.461Z INFO webdriver: BIDI RESULT {"type":"success","id":10,"result":{"navigation":"8b3f4387-aa47-4cfc-9070-3a5be89d3e78","url":"https://www.saucedemo.com/"}}
+2025-11-12T23:06:47.468Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"username\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:47.480Z INFO webdriver: BIDI RESULT {"type":"success","id":11,"result":{"nodes":[{"type":"node","sharedId":"6efc8e4b-2003-4432-8f73-95db943b9411","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Username","type":"text","data-test":"username","id":"user-name","name":"user-name","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:47.487Z INFO webdriver: COMMAND elementClear("6efc8e4b-2003-4432-8f73-95db943b9411")
+2025-11-12T23:06:47.487Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/6efc8e4b-2003-4432-8f73-95db943b9411/clear
+2025-11-12T23:06:47.503Z INFO webdriver: RESULT null
+2025-11-12T23:06:47.504Z INFO webdriver: COMMAND elementSendKeys("6efc8e4b-2003-4432-8f73-95db943b9411", "")
+2025-11-12T23:06:47.505Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/6efc8e4b-2003-4432-8f73-95db943b9411/value
+2025-11-12T23:06:47.505Z INFO webdriver: DATA { text: '' }
+2025-11-12T23:06:47.546Z INFO webdriver: RESULT null
+2025-11-12T23:06:47.546Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"password\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:47.549Z INFO webdriver: BIDI RESULT {"type":"success","id":12,"result":{"nodes":[{"type":"node","sharedId":"5f3dce5d-cb6e-45e8-83ed-63c649abdb58","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Password","type":"password","data-test":"password","id":"password","name":"password","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:47.553Z INFO webdriver: COMMAND elementClear("5f3dce5d-cb6e-45e8-83ed-63c649abdb58")
+2025-11-12T23:06:47.553Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/5f3dce5d-cb6e-45e8-83ed-63c649abdb58/clear
+2025-11-12T23:06:47.560Z INFO webdriver: RESULT null
+2025-11-12T23:06:47.560Z INFO webdriver: COMMAND elementSendKeys("5f3dce5d-cb6e-45e8-83ed-63c649abdb58", "")
+2025-11-12T23:06:47.560Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/5f3dce5d-cb6e-45e8-83ed-63c649abdb58/value
+2025-11-12T23:06:47.560Z INFO webdriver: DATA { text: '' }
+2025-11-12T23:06:47.593Z INFO webdriver: RESULT null
+2025-11-12T23:06:47.594Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"login-button\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:47.597Z INFO webdriver: BIDI RESULT {"type":"success","id":13,"result":{"nodes":[{"type":"node","sharedId":"5b1e3d55-d723-413a-a967-0e29a9185f65","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"type":"submit","class":"submit-button btn_action","data-test":"login-button","id":"login-button","name":"login-button","value":"Login"},"shadowRoot":null}}]}}
+2025-11-12T23:06:47.600Z INFO webdriver: COMMAND elementClick("5b1e3d55-d723-413a-a967-0e29a9185f65")
+2025-11-12T23:06:47.601Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/5b1e3d55-d723-413a-a967-0e29a9185f65/click
+2025-11-12T23:06:47.695Z INFO webdriver: RESULT null
+2025-11-12T23:06:47.698Z INFO webdriver: COMMAND getUrl()
+2025-11-12T23:06:47.699Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/url
+2025-11-12T23:06:47.715Z INFO webdriver: RESULT https://www.saucedemo.com/
+2025-11-12T23:06:47.720Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"error\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:47.724Z INFO webdriver: BIDI RESULT {"type":"success","id":14,"result":{"nodes":[{"type":"node","sharedId":"61469548-72dd-40ec-ae2f-f0f3a1baabb8","value":{"nodeType":1,"localName":"h3","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":2,"attributes":{"data-test":"error"},"shadowRoot":null}}]}}
+2025-11-12T23:06:47.726Z INFO webdriver: COMMAND getElementText("61469548-72dd-40ec-ae2f-f0f3a1baabb8")
+2025-11-12T23:06:47.727Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/61469548-72dd-40ec-ae2f-f0f3a1baabb8/text
+2025-11-12T23:06:47.740Z INFO webdriver: RESULT Epic sadface: Username is required
+2025-11-12T23:06:47.743Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18","url":"https://www.saucedemo.com/","wait":"complete"}
+2025-11-12T23:06:47.879Z INFO webdriver: BIDI RESULT {"type":"success","id":15,"result":{"navigation":"98d5948e-2043-49d3-849a-95aa59d1304f","url":"https://www.saucedemo.com/"}}
+2025-11-12T23:06:47.880Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"username\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:47.882Z INFO webdriver: BIDI RESULT {"type":"success","id":16,"result":{"nodes":[{"type":"node","sharedId":"52b6e54c-9cf6-4a2b-bf10-5c5b54518597","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Username","type":"text","data-test":"username","id":"user-name","name":"user-name","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:47.884Z INFO webdriver: COMMAND elementClear("52b6e54c-9cf6-4a2b-bf10-5c5b54518597")
+2025-11-12T23:06:47.885Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/52b6e54c-9cf6-4a2b-bf10-5c5b54518597/clear
+2025-11-12T23:06:47.891Z INFO webdriver: RESULT null
+2025-11-12T23:06:47.892Z INFO webdriver: COMMAND elementSendKeys("52b6e54c-9cf6-4a2b-bf10-5c5b54518597", "standard_user")
+2025-11-12T23:06:47.892Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/52b6e54c-9cf6-4a2b-bf10-5c5b54518597/value
+2025-11-12T23:06:47.892Z INFO webdriver: DATA { text: 'standard_user' }
+2025-11-12T23:06:47.960Z INFO webdriver: RESULT null
+2025-11-12T23:06:47.960Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"password\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:47.963Z INFO webdriver: BIDI RESULT {"type":"success","id":17,"result":{"nodes":[{"type":"node","sharedId":"5f6cddbe-2f54-4c79-a673-c0602cd41c11","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Password","type":"password","data-test":"password","id":"password","name":"password","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:47.965Z INFO webdriver: COMMAND elementClear("5f6cddbe-2f54-4c79-a673-c0602cd41c11")
+2025-11-12T23:06:47.965Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/5f6cddbe-2f54-4c79-a673-c0602cd41c11/clear
+2025-11-12T23:06:47.973Z INFO webdriver: RESULT null
+2025-11-12T23:06:47.973Z INFO webdriver: COMMAND elementSendKeys("5f6cddbe-2f54-4c79-a673-c0602cd41c11", "")
+2025-11-12T23:06:47.974Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/5f6cddbe-2f54-4c79-a673-c0602cd41c11/value
+2025-11-12T23:06:47.974Z INFO webdriver: DATA { text: '' }
+2025-11-12T23:06:48.009Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.011Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"login-button\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:48.014Z INFO webdriver: BIDI RESULT {"type":"success","id":18,"result":{"nodes":[{"type":"node","sharedId":"f171e68b-21c0-4c95-bf7d-ef16c0b83cc2","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"type":"submit","class":"submit-button btn_action","data-test":"login-button","id":"login-button","name":"login-button","value":"Login"},"shadowRoot":null}}]}}
+2025-11-12T23:06:48.018Z INFO webdriver: COMMAND elementClick("f171e68b-21c0-4c95-bf7d-ef16c0b83cc2")
+2025-11-12T23:06:48.018Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/f171e68b-21c0-4c95-bf7d-ef16c0b83cc2/click
+2025-11-12T23:06:48.096Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.098Z INFO webdriver: COMMAND getUrl()
+2025-11-12T23:06:48.099Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/url
+2025-11-12T23:06:48.102Z INFO webdriver: RESULT https://www.saucedemo.com/
+2025-11-12T23:06:48.106Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"error\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:48.109Z INFO webdriver: BIDI RESULT {"type":"success","id":19,"result":{"nodes":[{"type":"node","sharedId":"75855751-5d90-4579-876e-b3d5eb7fece3","value":{"nodeType":1,"localName":"h3","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":2,"attributes":{"data-test":"error"},"shadowRoot":null}}]}}
+2025-11-12T23:06:48.113Z INFO webdriver: COMMAND getElementText("75855751-5d90-4579-876e-b3d5eb7fece3")
+2025-11-12T23:06:48.113Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/75855751-5d90-4579-876e-b3d5eb7fece3/text
+2025-11-12T23:06:48.124Z INFO webdriver: RESULT Epic sadface: Password is required
+2025-11-12T23:06:48.126Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18","url":"https://www.saucedemo.com/","wait":"complete"}
+2025-11-12T23:06:48.264Z INFO webdriver: BIDI RESULT {"type":"success","id":20,"result":{"navigation":"b474cb52-ff1c-476a-a8cb-7dbe614fc839","url":"https://www.saucedemo.com/"}}
+2025-11-12T23:06:48.265Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"username\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:48.278Z INFO webdriver: BIDI RESULT {"type":"success","id":21,"result":{"nodes":[{"type":"node","sharedId":"9e039b44-c304-4f01-b87a-aadc014a5b44","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Username","type":"text","data-test":"username","id":"user-name","name":"user-name","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:48.281Z INFO webdriver: COMMAND elementClear("9e039b44-c304-4f01-b87a-aadc014a5b44")
+2025-11-12T23:06:48.281Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/9e039b44-c304-4f01-b87a-aadc014a5b44/clear
+2025-11-12T23:06:48.287Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.287Z INFO webdriver: COMMAND elementSendKeys("9e039b44-c304-4f01-b87a-aadc014a5b44", "locked_out_user")
+2025-11-12T23:06:48.287Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/9e039b44-c304-4f01-b87a-aadc014a5b44/value
+2025-11-12T23:06:48.287Z INFO webdriver: DATA { text: 'locked_out_user' }
+2025-11-12T23:06:48.330Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.331Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"password\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:48.335Z INFO webdriver: BIDI RESULT {"type":"success","id":22,"result":{"nodes":[{"type":"node","sharedId":"f1450395-f916-4210-bdc3-5a9f30d84cdc","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Password","type":"password","data-test":"password","id":"password","name":"password","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:48.338Z INFO webdriver: COMMAND elementClear("f1450395-f916-4210-bdc3-5a9f30d84cdc")
+2025-11-12T23:06:48.338Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/f1450395-f916-4210-bdc3-5a9f30d84cdc/clear
+2025-11-12T23:06:48.342Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.342Z INFO webdriver: COMMAND elementSendKeys("f1450395-f916-4210-bdc3-5a9f30d84cdc", "secret_sauce")
+2025-11-12T23:06:48.342Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/f1450395-f916-4210-bdc3-5a9f30d84cdc/value
+2025-11-12T23:06:48.342Z INFO webdriver: DATA { text: 'secret_sauce' }
+2025-11-12T23:06:48.374Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.374Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"login-button\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:48.376Z INFO webdriver: BIDI RESULT {"type":"success","id":23,"result":{"nodes":[{"type":"node","sharedId":"3c68ae9b-c4a0-448c-bf53-263443b8a4b5","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"type":"submit","class":"submit-button btn_action","data-test":"login-button","id":"login-button","name":"login-button","value":"Login"},"shadowRoot":null}}]}}
+2025-11-12T23:06:48.378Z INFO webdriver: COMMAND elementClick("3c68ae9b-c4a0-448c-bf53-263443b8a4b5")
+2025-11-12T23:06:48.378Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/3c68ae9b-c4a0-448c-bf53-263443b8a4b5/click
+2025-11-12T23:06:48.449Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.449Z INFO webdriver: COMMAND getUrl()
+2025-11-12T23:06:48.449Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/url
+2025-11-12T23:06:48.451Z INFO webdriver: RESULT https://www.saucedemo.com/
+2025-11-12T23:06:48.452Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"error\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:48.454Z INFO webdriver: BIDI RESULT {"type":"success","id":24,"result":{"nodes":[{"type":"node","sharedId":"d6735e70-eb19-4130-b109-e3de6545c270","value":{"nodeType":1,"localName":"h3","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":2,"attributes":{"data-test":"error"},"shadowRoot":null}}]}}
+2025-11-12T23:06:48.456Z INFO webdriver: COMMAND getElementText("d6735e70-eb19-4130-b109-e3de6545c270")
+2025-11-12T23:06:48.456Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/d6735e70-eb19-4130-b109-e3de6545c270/text
+2025-11-12T23:06:48.466Z INFO webdriver: RESULT Epic sadface: Sorry, this user has been locked out.
+2025-11-12T23:06:48.467Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18","url":"https://www.saucedemo.com/","wait":"complete"}
+2025-11-12T23:06:48.607Z INFO webdriver: BIDI RESULT {"type":"success","id":25,"result":{"navigation":"519b61f2-4707-47b1-a86e-3e5a1a33f5ce","url":"https://www.saucedemo.com/"}}
+2025-11-12T23:06:48.608Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"username\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:48.610Z INFO webdriver: BIDI RESULT {"type":"success","id":26,"result":{"nodes":[{"type":"node","sharedId":"50fa8f25-a58b-4324-8d52-9ae1cfbed77a","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Username","type":"text","data-test":"username","id":"user-name","name":"user-name","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:48.611Z INFO webdriver: COMMAND elementClear("50fa8f25-a58b-4324-8d52-9ae1cfbed77a")
+2025-11-12T23:06:48.612Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/50fa8f25-a58b-4324-8d52-9ae1cfbed77a/clear
+2025-11-12T23:06:48.616Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.616Z INFO webdriver: COMMAND elementSendKeys("50fa8f25-a58b-4324-8d52-9ae1cfbed77a", "standard_user")
+2025-11-12T23:06:48.616Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/50fa8f25-a58b-4324-8d52-9ae1cfbed77a/value
+2025-11-12T23:06:48.616Z INFO webdriver: DATA { text: 'standard_user' }
+2025-11-12T23:06:48.664Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.665Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"password\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:48.667Z INFO webdriver: BIDI RESULT {"type":"success","id":27,"result":{"nodes":[{"type":"node","sharedId":"7f19a689-ed94-4c8e-8d0c-bef672e00d62","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Password","type":"password","data-test":"password","id":"password","name":"password","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:48.668Z INFO webdriver: COMMAND elementClear("7f19a689-ed94-4c8e-8d0c-bef672e00d62")
+2025-11-12T23:06:48.669Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/7f19a689-ed94-4c8e-8d0c-bef672e00d62/clear
+2025-11-12T23:06:48.673Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.674Z INFO webdriver: COMMAND elementSendKeys("7f19a689-ed94-4c8e-8d0c-bef672e00d62", "secret_sauce")
+2025-11-12T23:06:48.674Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/7f19a689-ed94-4c8e-8d0c-bef672e00d62/value
+2025-11-12T23:06:48.674Z INFO webdriver: DATA { text: 'secret_sauce' }
+2025-11-12T23:06:48.707Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.708Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"login-button\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:48.710Z INFO webdriver: BIDI RESULT {"type":"success","id":28,"result":{"nodes":[{"type":"node","sharedId":"8fd17710-b979-435d-aa7d-16b27485f420","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"type":"submit","class":"submit-button btn_action","data-test":"login-button","id":"login-button","name":"login-button","value":"Login"},"shadowRoot":null}}]}}
+2025-11-12T23:06:48.711Z INFO webdriver: COMMAND elementClick("8fd17710-b979-435d-aa7d-16b27485f420")
+2025-11-12T23:06:48.711Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/8fd17710-b979-435d-aa7d-16b27485f420/click
+2025-11-12T23:06:48.800Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.801Z INFO webdriver: COMMAND getUrl()
+2025-11-12T23:06:48.801Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/url
+2025-11-12T23:06:48.804Z INFO webdriver: RESULT https://www.saucedemo.com/inventory.html
+2025-11-12T23:06:48.806Z INFO webdriver: COMMAND getTitle()
+2025-11-12T23:06:48.806Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/title
+2025-11-12T23:06:48.811Z INFO webdriver: RESULT Swag Labs
+2025-11-12T23:06:48.812Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18","url":"https://www.saucedemo.com/","wait":"complete"}
+2025-11-12T23:06:48.947Z INFO webdriver: BIDI RESULT {"type":"success","id":29,"result":{"navigation":"61285212-b3d0-483e-bf6a-85d4ab435a78","url":"https://www.saucedemo.com/"}}
+2025-11-12T23:06:48.948Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"username\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:48.950Z INFO webdriver: BIDI RESULT {"type":"success","id":30,"result":{"nodes":[{"type":"node","sharedId":"cb5a2f91-7b72-4ce3-931c-c16b6a608936","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Username","type":"text","data-test":"username","id":"user-name","name":"user-name","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:48.953Z INFO webdriver: COMMAND elementClear("cb5a2f91-7b72-4ce3-931c-c16b6a608936")
+2025-11-12T23:06:48.953Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/cb5a2f91-7b72-4ce3-931c-c16b6a608936/clear
+2025-11-12T23:06:48.960Z INFO webdriver: RESULT null
+2025-11-12T23:06:48.960Z INFO webdriver: COMMAND elementSendKeys("cb5a2f91-7b72-4ce3-931c-c16b6a608936", "problem_user")
+2025-11-12T23:06:48.960Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/cb5a2f91-7b72-4ce3-931c-c16b6a608936/value
+2025-11-12T23:06:48.960Z INFO webdriver: DATA { text: 'problem_user' }
+2025-11-12T23:06:49.013Z INFO webdriver: RESULT null
+2025-11-12T23:06:49.013Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"password\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:49.016Z INFO webdriver: BIDI RESULT {"type":"success","id":31,"result":{"nodes":[{"type":"node","sharedId":"9264122b-65e0-44af-9a77-cd8b24142027","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Password","type":"password","data-test":"password","id":"password","name":"password","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:49.017Z INFO webdriver: COMMAND elementClear("9264122b-65e0-44af-9a77-cd8b24142027")
+2025-11-12T23:06:49.017Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/9264122b-65e0-44af-9a77-cd8b24142027/clear
+2025-11-12T23:06:49.022Z INFO webdriver: RESULT null
+2025-11-12T23:06:49.022Z INFO webdriver: COMMAND elementSendKeys("9264122b-65e0-44af-9a77-cd8b24142027", "secret_sauce")
+2025-11-12T23:06:49.023Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/9264122b-65e0-44af-9a77-cd8b24142027/value
+2025-11-12T23:06:49.023Z INFO webdriver: DATA { text: 'secret_sauce' }
+2025-11-12T23:06:49.055Z INFO webdriver: RESULT null
+2025-11-12T23:06:49.055Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"login-button\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:49.057Z INFO webdriver: BIDI RESULT {"type":"success","id":32,"result":{"nodes":[{"type":"node","sharedId":"22dc0b85-4b55-44f6-a2ab-27a794b57a29","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"type":"submit","class":"submit-button btn_action","data-test":"login-button","id":"login-button","name":"login-button","value":"Login"},"shadowRoot":null}}]}}
+2025-11-12T23:06:49.058Z INFO webdriver: COMMAND elementClick("22dc0b85-4b55-44f6-a2ab-27a794b57a29")
+2025-11-12T23:06:49.059Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/22dc0b85-4b55-44f6-a2ab-27a794b57a29/click
+2025-11-12T23:06:49.130Z INFO webdriver: RESULT null
+2025-11-12T23:06:49.131Z INFO webdriver: COMMAND getUrl()
+2025-11-12T23:06:49.131Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/url
+2025-11-12T23:06:49.133Z INFO webdriver: RESULT https://www.saucedemo.com/inventory.html
+2025-11-12T23:06:49.134Z INFO webdriver: COMMAND getTitle()
+2025-11-12T23:06:49.134Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/title
+2025-11-12T23:06:49.136Z INFO webdriver: RESULT Swag Labs
+2025-11-12T23:06:49.137Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18","url":"https://www.saucedemo.com/","wait":"complete"}
+2025-11-12T23:06:49.244Z INFO webdriver: BIDI RESULT {"type":"success","id":33,"result":{"navigation":"1ea6cac0-b223-48d1-85ba-5af1c50acd99","url":"https://www.saucedemo.com/"}}
+2025-11-12T23:06:49.246Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"username\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:49.248Z INFO webdriver: BIDI RESULT {"type":"success","id":34,"result":{"nodes":[{"type":"node","sharedId":"156249ef-370a-4fbb-a78b-8b18ff26cb13","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Username","type":"text","data-test":"username","id":"user-name","name":"user-name","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:49.250Z INFO webdriver: COMMAND elementClear("156249ef-370a-4fbb-a78b-8b18ff26cb13")
+2025-11-12T23:06:49.250Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/156249ef-370a-4fbb-a78b-8b18ff26cb13/clear
+2025-11-12T23:06:49.257Z INFO webdriver: RESULT null
+2025-11-12T23:06:49.257Z INFO webdriver: COMMAND elementSendKeys("156249ef-370a-4fbb-a78b-8b18ff26cb13", "performance_glitch_user")
+2025-11-12T23:06:49.257Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/156249ef-370a-4fbb-a78b-8b18ff26cb13/value
+2025-11-12T23:06:49.257Z INFO webdriver: DATA { text: 'performance_glitch_user' }
+2025-11-12T23:06:49.301Z INFO webdriver: RESULT null
+2025-11-12T23:06:49.302Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"password\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:49.304Z INFO webdriver: BIDI RESULT {"type":"success","id":35,"result":{"nodes":[{"type":"node","sharedId":"256b3161-cf81-4964-aef4-30810720a865","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Password","type":"password","data-test":"password","id":"password","name":"password","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:49.307Z INFO webdriver: COMMAND elementClear("256b3161-cf81-4964-aef4-30810720a865")
+2025-11-12T23:06:49.307Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/256b3161-cf81-4964-aef4-30810720a865/clear
+2025-11-12T23:06:49.310Z INFO webdriver: RESULT null
+2025-11-12T23:06:49.311Z INFO webdriver: COMMAND elementSendKeys("256b3161-cf81-4964-aef4-30810720a865", "secret_sauce")
+2025-11-12T23:06:49.311Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/256b3161-cf81-4964-aef4-30810720a865/value
+2025-11-12T23:06:49.311Z INFO webdriver: DATA { text: 'secret_sauce' }
+2025-11-12T23:06:49.349Z INFO webdriver: RESULT null
+2025-11-12T23:06:49.350Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"login-button\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:49.352Z INFO webdriver: BIDI RESULT {"type":"success","id":36,"result":{"nodes":[{"type":"node","sharedId":"625c762d-af95-4ef2-ab32-addb9c2b7a8d","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"type":"submit","class":"submit-button btn_action","data-test":"login-button","id":"login-button","name":"login-button","value":"Login"},"shadowRoot":null}}]}}
+2025-11-12T23:06:49.354Z INFO webdriver: COMMAND elementClick("625c762d-af95-4ef2-ab32-addb9c2b7a8d")
+2025-11-12T23:06:49.354Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/625c762d-af95-4ef2-ab32-addb9c2b7a8d/click
+2025-11-12T23:06:54.431Z INFO webdriver: RESULT null
+2025-11-12T23:06:54.432Z INFO webdriver: COMMAND getUrl()
+2025-11-12T23:06:54.432Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/url
+2025-11-12T23:06:54.436Z INFO webdriver: RESULT https://www.saucedemo.com/inventory.html
+2025-11-12T23:06:54.438Z INFO webdriver: COMMAND getTitle()
+2025-11-12T23:06:54.438Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/title
+2025-11-12T23:06:54.441Z INFO webdriver: RESULT Swag Labs
+2025-11-12T23:06:54.442Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18","url":"https://www.saucedemo.com/","wait":"complete"}
+2025-11-12T23:06:54.552Z INFO webdriver: BIDI RESULT {"type":"success","id":37,"result":{"navigation":"f2e587a2-d595-48d9-8b0c-ebce0a10e483","url":"https://www.saucedemo.com/"}}
+2025-11-12T23:06:54.553Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"username\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:54.557Z INFO webdriver: BIDI RESULT {"type":"success","id":38,"result":{"nodes":[{"type":"node","sharedId":"d0739c7f-0a27-4575-a819-8b912bab3fb8","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Username","type":"text","data-test":"username","id":"user-name","name":"user-name","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:54.560Z INFO webdriver: COMMAND elementClear("d0739c7f-0a27-4575-a819-8b912bab3fb8")
+2025-11-12T23:06:54.560Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/d0739c7f-0a27-4575-a819-8b912bab3fb8/clear
+2025-11-12T23:06:54.565Z INFO webdriver: RESULT null
+2025-11-12T23:06:54.565Z INFO webdriver: COMMAND elementSendKeys("d0739c7f-0a27-4575-a819-8b912bab3fb8", "error_user")
+2025-11-12T23:06:54.565Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/d0739c7f-0a27-4575-a819-8b912bab3fb8/value
+2025-11-12T23:06:54.565Z INFO webdriver: DATA { text: 'error_user' }
+2025-11-12T23:06:54.613Z INFO webdriver: RESULT null
+2025-11-12T23:06:54.613Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"password\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:54.616Z INFO webdriver: BIDI RESULT {"type":"success","id":39,"result":{"nodes":[{"type":"node","sharedId":"99b2cfd8-9240-4b4a-9a4a-f033eb6b37b4","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Password","type":"password","data-test":"password","id":"password","name":"password","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:54.618Z INFO webdriver: COMMAND elementClear("99b2cfd8-9240-4b4a-9a4a-f033eb6b37b4")
+2025-11-12T23:06:54.618Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/99b2cfd8-9240-4b4a-9a4a-f033eb6b37b4/clear
+2025-11-12T23:06:54.623Z INFO webdriver: RESULT null
+2025-11-12T23:06:54.624Z INFO webdriver: COMMAND elementSendKeys("99b2cfd8-9240-4b4a-9a4a-f033eb6b37b4", "secret_sauce")
+2025-11-12T23:06:54.624Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/99b2cfd8-9240-4b4a-9a4a-f033eb6b37b4/value
+2025-11-12T23:06:54.624Z INFO webdriver: DATA { text: 'secret_sauce' }
+2025-11-12T23:06:54.642Z INFO webdriver: RESULT null
+2025-11-12T23:06:54.643Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"login-button\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:54.645Z INFO webdriver: BIDI RESULT {"type":"success","id":40,"result":{"nodes":[{"type":"node","sharedId":"11743173-cc03-472f-8320-03a54da918d7","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"type":"submit","class":"submit-button btn_action","data-test":"login-button","id":"login-button","name":"login-button","value":"Login"},"shadowRoot":null}}]}}
+2025-11-12T23:06:54.647Z INFO webdriver: COMMAND elementClick("11743173-cc03-472f-8320-03a54da918d7")
+2025-11-12T23:06:54.647Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/11743173-cc03-472f-8320-03a54da918d7/click
+2025-11-12T23:06:54.727Z INFO webdriver: RESULT null
+2025-11-12T23:06:54.729Z INFO webdriver: COMMAND getUrl()
+2025-11-12T23:06:54.729Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/url
+2025-11-12T23:06:54.730Z INFO webdriver: RESULT https://www.saucedemo.com/inventory.html
+2025-11-12T23:06:54.731Z INFO webdriver: COMMAND getTitle()
+2025-11-12T23:06:54.731Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/title
+2025-11-12T23:06:54.732Z INFO webdriver: RESULT Swag Labs
+2025-11-12T23:06:54.733Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18","url":"https://www.saucedemo.com/","wait":"complete"}
+2025-11-12T23:06:54.843Z INFO webdriver: BIDI RESULT {"type":"success","id":41,"result":{"navigation":"8eca4c40-a53d-4543-8d39-8acab9f38b29","url":"https://www.saucedemo.com/"}}
+2025-11-12T23:06:54.843Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"username\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:54.845Z INFO webdriver: BIDI RESULT {"type":"success","id":42,"result":{"nodes":[{"type":"node","sharedId":"2c0f1931-24f6-413c-9e8c-471f577f7223","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Username","type":"text","data-test":"username","id":"user-name","name":"user-name","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:54.846Z INFO webdriver: COMMAND elementClear("2c0f1931-24f6-413c-9e8c-471f577f7223")
+2025-11-12T23:06:54.847Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/2c0f1931-24f6-413c-9e8c-471f577f7223/clear
+2025-11-12T23:06:54.850Z INFO webdriver: RESULT null
+2025-11-12T23:06:54.850Z INFO webdriver: COMMAND elementSendKeys("2c0f1931-24f6-413c-9e8c-471f577f7223", "visual_user")
+2025-11-12T23:06:54.850Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/2c0f1931-24f6-413c-9e8c-471f577f7223/value
+2025-11-12T23:06:54.850Z INFO webdriver: DATA { text: 'visual_user' }
+2025-11-12T23:06:54.883Z INFO webdriver: RESULT null
+2025-11-12T23:06:54.883Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"password\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:54.885Z INFO webdriver: BIDI RESULT {"type":"success","id":43,"result":{"nodes":[{"type":"node","sharedId":"72a1432a-ba64-4b86-b4bb-4ff376754c8d","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"class":"input_error form_input","placeholder":"Password","type":"password","data-test":"password","id":"password","name":"password","autocorrect":"off","autocapitalize":"none","value":""},"shadowRoot":null}}]}}
+2025-11-12T23:06:54.888Z INFO webdriver: COMMAND elementClear("72a1432a-ba64-4b86-b4bb-4ff376754c8d")
+2025-11-12T23:06:54.888Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/72a1432a-ba64-4b86-b4bb-4ff376754c8d/clear
+2025-11-12T23:06:54.893Z INFO webdriver: RESULT null
+2025-11-12T23:06:54.893Z INFO webdriver: COMMAND elementSendKeys("72a1432a-ba64-4b86-b4bb-4ff376754c8d", "secret_sauce")
+2025-11-12T23:06:54.893Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/72a1432a-ba64-4b86-b4bb-4ff376754c8d/value
+2025-11-12T23:06:54.893Z INFO webdriver: DATA { text: 'secret_sauce' }
+2025-11-12T23:06:54.923Z INFO webdriver: RESULT null
+2025-11-12T23:06:54.924Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"[data-test=\"login-button\"]"},"context":"ff12155b-4da4-4a7a-b0e1-a7cc94c86c18"}
+2025-11-12T23:06:54.926Z INFO webdriver: BIDI RESULT {"type":"success","id":44,"result":{"nodes":[{"type":"node","sharedId":"1c9778e3-64e8-42b6-b93b-381e5819305d","value":{"nodeType":1,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":0,"attributes":{"type":"submit","class":"submit-button btn_action","data-test":"login-button","id":"login-button","name":"login-button","value":"Login"},"shadowRoot":null}}]}}
+2025-11-12T23:06:54.927Z INFO webdriver: COMMAND elementClick("1c9778e3-64e8-42b6-b93b-381e5819305d")
+2025-11-12T23:06:54.927Z INFO webdriver: [POST] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/element/1c9778e3-64e8-42b6-b93b-381e5819305d/click
+2025-11-12T23:06:55.007Z INFO webdriver: RESULT null
+2025-11-12T23:06:55.008Z INFO webdriver: COMMAND getUrl()
+2025-11-12T23:06:55.008Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/url
+2025-11-12T23:06:55.010Z INFO webdriver: RESULT https://www.saucedemo.com/inventory.html
+2025-11-12T23:06:55.011Z INFO webdriver: COMMAND getTitle()
+2025-11-12T23:06:55.011Z INFO webdriver: [GET] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d/title
+2025-11-12T23:06:55.012Z INFO webdriver: RESULT Swag Labs
+2025-11-12T23:06:55.014Z INFO webdriver: COMMAND deleteSession()
+2025-11-12T23:06:55.014Z INFO webdriver: [DELETE] http://localhost:54638/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d
+2025-11-12T23:06:55.999Z INFO webdriver: RESULT null
+2025-11-12T23:06:56.000Z INFO webdriver: Close Bidi connection to ws://127.0.0.1:62104/session/25ed758f-0d15-43be-a50d-5d1254a0ee9d
+2025-11-12T23:06:56.000Z INFO webdriver: Kill driver process with PID 15788

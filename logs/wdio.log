@@ -1,0 +1,32 @@
+2025-11-12T22:47:53.923Z INFO @wdio/cli:launcher: Run onPrepare hook
+2025-11-12T22:47:53.927Z ERROR @wdio/cli:utils: A service failed in the 'onPrepare' hook
+Error: webDriverType undefined is not valid
+    at WebDriverLauncher.onPrepare (C:\Users\Victor\EPAM_AT\ATJS-Final-Task\final_task\node_modules\wdio-webdriver-service\lib\launcher.js:17:35)
+    at file:///C:/Users/Victor/EPAM_AT/ATJS-Final-Task/final_task/node_modules/@wdio/cli/build/index.js:329:32
+    at Array.map (<anonymous>)
+    at runServiceHook (file:///C:/Users/Victor/EPAM_AT/ATJS-Final-Task/final_task/node_modules/@wdio/cli/build/index.js:326:31)
+    at Launcher.run (file:///C:/Users/Victor/EPAM_AT/ATJS-Final-Task/final_task/node_modules/@wdio/cli/build/index.js:874:13)
+
+Continue...
+2025-11-12T22:47:53.928Z INFO @wdio/utils: Setting up browser driver for: chrome@stable - firefox@stable
+2025-11-12T22:47:53.929Z INFO @wdio/utils: Setting up browser binaries for: chrome@stable - firefox@stable
+2025-11-12T22:47:53.931Z INFO webdriver: Using Chromedriver v142.0.7444.135 from cache directory C:\Users\Victor\AppData\Local\Temp
+2025-11-12T22:47:54.239Z INFO webdriver: Setting up firefox vnightly_147.0a1
+2025-11-12T22:47:54.247Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2025-11-12T22:47:54.247Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2025-11-12T22:47:54.247Z INFO @wdio/xvfb: XvfbManager.init() called
+2025-11-12T22:47:54.247Z INFO @wdio/xvfb: Xvfb not needed on current platform
+2025-11-12T22:47:54.247Z INFO @wdio/xvfb: XvfbManager.init() called
+2025-11-12T22:47:54.247Z INFO @wdio/xvfb: Xvfb not needed on current platform
+2025-11-12T22:47:54.248Z INFO @wdio/local-runner: Start worker 0-0 with arg: run src/config/wdio.conf.js
+2025-11-12T22:47:54.478Z INFO @wdio/xvfb:ProcessFactory: xvfb-run not found, falling back to regular fork
+2025-11-12T22:47:54.478Z INFO @wdio/xvfb:ProcessFactory: ProcessFactory: shouldRun=false, isAvailable=false
+2025-11-12T22:47:54.478Z INFO @wdio/xvfb:ProcessFactory: Creating worker process with regular fork
+2025-11-12T22:47:54.482Z INFO @wdio/local-runner: Start worker 1-0 with arg: run src/config/wdio.conf.js
+2025-11-12T22:47:54.723Z INFO @wdio/xvfb:ProcessFactory: xvfb-run not found, falling back to regular fork
+2025-11-12T22:47:54.723Z INFO @wdio/xvfb:ProcessFactory: ProcessFactory: shouldRun=false, isAvailable=false
+2025-11-12T22:47:54.723Z INFO @wdio/xvfb:ProcessFactory: Creating worker process with regular fork
+2025-11-12T22:48:06.331Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2025-11-12T22:48:10.523Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2025-11-12T22:48:10.528Z INFO @wdio/local-runner: Shutting down spawned worker
+2025-11-12T22:48:10.795Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
