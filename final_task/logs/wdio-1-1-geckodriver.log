@@ -1,10 +1,10 @@
-1762987677051	geckodriver	INFO	Listening on 0.0.0.0:65317
-1762987677179	mozrunner::runner	INFO	Running command: "C:\\Users\\Victor\\AppData\\Local\\Temp\\firefox\\win64-nightly_147.0a1\\firefox\\firefox.exe" "--marionett ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Victor\\AppData\\Local\\Temp\\rust_mozprofileys002d"
+1763077429104	geckodriver	INFO	Listening on 0.0.0.0:59919
+1763077429241	mozrunner::runner	INFO	Running command: "C:\\Users\\Victor\\AppData\\Local\\Temp\\firefox\\win64-nightly_147.0a1\\firefox\\firefox.exe" "--marionett ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Victor\\AppData\\Local\\Temp\\rust_mozprofileKjE0H2"
 Dynamically enable window occlusion 0
-1762987677712	Marionette	INFO	Marionette enabled
-1762987677836	Marionette	INFO	Listening on port 51380
-WebDriver BiDi listening on ws://127.0.0.1:62581
-Read port: 51380
+1763077429839	Marionette	INFO	Marionette enabled
+1763077429981	Marionette	INFO	Listening on port 58249
+WebDriver BiDi listening on ws://127.0.0.1:58250
+Read port: 58249
 console.error: RSLoader: 
   Failed to retrieve recipes from Remote Settings
   Message: Error: Could not sync nimbus-desktop-experiments: get-exception
@@ -12,20 +12,29 @@ console.error: RSLoader:
     RemoteSettingsSyncError@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:1328:5
 getRecipesFromCollection@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:618:13
 
-1762987681174	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:60316
+1763077434221	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:57093
 console.error: (new NotFoundError("Could not find fa0fc42c-d91d-fca7-34eb-806ff46062dc in cache or dump", "resource://services-settings/Attachments.sys.mjs", 48))
 console.warn: "Unable to find the attachment for" "fa0fc42c-d91d-fca7-34eb-806ff46062dc"
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
-console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
-console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
-console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
-console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
-console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
-console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
 NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
 console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+1763077435384	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
 console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
 console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
@@ -33,7 +42,10 @@ console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWi
 console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
 console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
 console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
-1762987689509	Marionette	INFO	Stopped listening on port 51380
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+1763077444809	Marionette	INFO	Stopped listening on port 58249
 Dynamically enable window occlusion 1
 console.error: services.settings: 
 Object

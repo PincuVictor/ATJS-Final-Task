@@ -1,0 +1,4 @@
+Starting ChromeDriver 142.0.7444.135 (cfbccbbb12227c1a80ddfe2080b170eca74aed49-refs/branch-heads/7444@{#2371}) on port 54632
+Remote connections are allowed by an allowlist (0.0.0.0).
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 54632.
