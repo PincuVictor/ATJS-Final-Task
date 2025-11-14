@@ -3,7 +3,7 @@
 **ID:** BUG-001
 **Severity:** Medium
 **Priority:** Low
-**Found By:** Victor [Your Last Name]
+**Found By:** Victor Pincu
 
 ---
 

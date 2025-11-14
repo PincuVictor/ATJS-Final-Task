@@ -5,6 +5,9 @@ const footerComponent = require("../components/common/footer.component.js");
 const InventoryItemComponent = require("../components/inventory/inventory-item.component.js");
 
 class InventoryPage {
+
+    //      COMPONENT GETTERS
+
     get primaryHeader() {
         return primaryHeaderComponent;
     }
@@ -14,6 +17,9 @@ class InventoryPage {
     get footerComponent() {
         return footerComponent;
     }
+
+    //      LOCATORS
+
     get secondaryHeaderActiveOption() {
         return $('[data-test="active-option"]');
     }
@@ -36,6 +42,13 @@ class InventoryPage {
         return $$('.inventory_item_price');
     }
 
+    //      ACTIONS
+
+    /**
+     * Finds a specific item by its name and returns a component for it
+     * @param {string} itemName the visible text of the item's title ('Sauce Labs Backpack' etc.)
+     * @returns {Promise<InventoryItemComponent>} a new component object for that specific item
+     */
     async getItemByName(itemName) {
         const items = await this.allInventoryItems;
         for (const itemElement of items) {
@@ -44,8 +57,13 @@ class InventoryPage {
                 return item;
             }
         }
-        throw new Error(`Could not find item with name: ${itemName}`);
+        throw new Error(`Could not find item with title: ${itemName}`);
     }
+
+    /**
+     * Gets the text of all item names currently displayed on the page
+     * @returns {Promise<string[]>} an array of item name strings
+     */
     async getItemNames() {
         const nameElements = await this.allItemNames;
         const names = [];
@@ -54,19 +72,37 @@ class InventoryPage {
         }
         return names;
     }
+
+    /**
+     * Gets the price of all items currently displayed on the page
+     * @returns {Promise<number[]>} an array of item prices as numbers
+     */
     async getItemPrices() {
         const priceElements = await this.allItemPrices;
         const prices = [];
         for (const element of priceElements) {
-            const text = await element.getText();
-            prices.push(Number(text.replace('$', '')));
+            const numericText = (await element.getText()).replace('$', '');
+            prices.push(parseFloat(numericText));
         }
         return prices;
     }
 
+    /**
+     * Selects an option from the sort dropdown by its 'value' attribute
+     * @param {string} optionValue the value of the option ('az', 'za', 'lohi', 'hilo')
+     */
+    async selectSortOption(optionValue) {
+        await this.secondaryHeaderSort.selectByAttribute('value', optionValue);
+        await browser.pause(500);
+    }
+
+    /**
+     * Opens the inventory page (login is required)
+     */
     async open() {
         await browser.url('/inventory.html');
     }
 }
 
+// Export a single instance
 module.exports = new InventoryPage();

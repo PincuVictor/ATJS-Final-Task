@@ -1,0 +1,48 @@
+2025-11-14T15:01:28.588Z INFO @wdio/cli:launcher: Run onPrepare hook
+2025-11-14T15:01:28.592Z ERROR @wdio/cli:utils: A service failed in the 'onPrepare' hook
+Error: webDriverType undefined is not valid
+    at WebDriverLauncher.onPrepare (C:\Users\Victor\EPAM_AT\ATJS-Final-Task\final_task\node_modules\wdio-webdriver-service\lib\launcher.js:17:35)
+    at file:///C:/Users/Victor/EPAM_AT/ATJS-Final-Task/final_task/node_modules/@wdio/cli/build/index.js:329:32
+    at Array.map (<anonymous>)
+    at runServiceHook (file:///C:/Users/Victor/EPAM_AT/ATJS-Final-Task/final_task/node_modules/@wdio/cli/build/index.js:326:31)
+    at Launcher.run (file:///C:/Users/Victor/EPAM_AT/ATJS-Final-Task/final_task/node_modules/@wdio/cli/build/index.js:874:13)
+
+Continue...
+2025-11-14T15:01:28.593Z INFO @wdio/utils: Setting up browser driver for: chrome@stable - firefox@stable
+2025-11-14T15:01:28.594Z INFO @wdio/utils: Setting up browser binaries for: chrome@stable - firefox@stable
+2025-11-14T15:01:28.596Z INFO webdriver: Using Chromedriver v142.0.7444.135 from cache directory C:\Users\Victor\AppData\Local\Temp
+2025-11-14T15:01:29.105Z INFO webdriver: Setting up firefox vnightly_147.0a1
+2025-11-14T15:01:29.119Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2025-11-14T15:01:29.119Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2025-11-14T15:01:29.119Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2025-11-14T15:01:29.119Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2025-11-14T15:01:29.120Z INFO @wdio/xvfb: XvfbManager.init() called
+2025-11-14T15:01:29.120Z INFO @wdio/xvfb: Xvfb not needed on current platform
+2025-11-14T15:01:29.120Z INFO @wdio/xvfb: XvfbManager.init() called
+2025-11-14T15:01:29.120Z INFO @wdio/xvfb: Xvfb not needed on current platform
+2025-11-14T15:01:29.120Z INFO @wdio/xvfb: XvfbManager.init() called
+2025-11-14T15:01:29.120Z INFO @wdio/xvfb: Xvfb not needed on current platform
+2025-11-14T15:01:29.120Z INFO @wdio/xvfb: XvfbManager.init() called
+2025-11-14T15:01:29.120Z INFO @wdio/xvfb: Xvfb not needed on current platform
+2025-11-14T15:01:29.121Z INFO @wdio/local-runner: Start worker 0-0 with arg: run src/config/wdio.conf.js
+2025-11-14T15:01:29.431Z INFO @wdio/xvfb:ProcessFactory: xvfb-run not found, falling back to regular fork
+2025-11-14T15:01:29.431Z INFO @wdio/xvfb:ProcessFactory: ProcessFactory: shouldRun=false, isAvailable=false
+2025-11-14T15:01:29.431Z INFO @wdio/xvfb:ProcessFactory: Creating worker process with regular fork
+2025-11-14T15:01:29.436Z INFO @wdio/local-runner: Start worker 1-0 with arg: run src/config/wdio.conf.js
+2025-11-14T15:01:29.667Z INFO @wdio/xvfb:ProcessFactory: xvfb-run not found, falling back to regular fork
+2025-11-14T15:01:29.667Z INFO @wdio/xvfb:ProcessFactory: ProcessFactory: shouldRun=false, isAvailable=false
+2025-11-14T15:01:29.667Z INFO @wdio/xvfb:ProcessFactory: Creating worker process with regular fork
+2025-11-14T15:01:29.672Z INFO @wdio/local-runner: Start worker 0-1 with arg: run src/config/wdio.conf.js
+2025-11-14T15:01:29.974Z INFO @wdio/xvfb:ProcessFactory: xvfb-run not found, falling back to regular fork
+2025-11-14T15:01:29.974Z INFO @wdio/xvfb:ProcessFactory: ProcessFactory: shouldRun=false, isAvailable=false
+2025-11-14T15:01:29.974Z INFO @wdio/xvfb:ProcessFactory: Creating worker process with regular fork
+2025-11-14T15:01:29.980Z INFO @wdio/local-runner: Start worker 1-1 with arg: run src/config/wdio.conf.js
+2025-11-14T15:01:30.349Z INFO @wdio/xvfb:ProcessFactory: xvfb-run not found, falling back to regular fork
+2025-11-14T15:01:30.349Z INFO @wdio/xvfb:ProcessFactory: ProcessFactory: shouldRun=false, isAvailable=false
+2025-11-14T15:01:30.349Z INFO @wdio/xvfb:ProcessFactory: Creating worker process with regular fork
+2025-11-14T15:01:44.257Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2025-11-14T15:01:52.045Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2025-11-14T15:02:40.230Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2025-11-14T15:02:42.037Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2025-11-14T15:02:42.122Z INFO @wdio/local-runner: Shutting down spawned worker
+2025-11-14T15:02:42.376Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully

@@ -1,7 +1,7 @@
 Feature: SauceDemo Login
 
-  As a user, I want to test the login functionality of SauceDemo
-  to ensure only valid users can access the inventory.
+  As a user, I want to test the login functionality of Saucedemo
+  to make sure only valid users can access the rest of Saucedemo.
 
   Background:
     Given I am on the login page

@@ -1,6 +1,9 @@
 const { $ } = require('@wdio/globals');
 
 class FooterComponent {
+
+    //      LOCATORS
+
     get rootEl() {
         return $('[data-test="footer"]');
     }
@@ -8,6 +11,11 @@ class FooterComponent {
         return this.rootEl.$('[data-test="footer-copy"]');
     }
 
+    /**
+     * Method to get a specific social media link element.
+     * @param {string} param The name of the social media link ('twitter', 'facebook', 'linkedin')
+     * @returns {ChainablePromiseElement} The <a> element for the specified link.
+     */
     item(param) {
         const selectors = {
             twitter: '[data-test="social-twitter"]',
@@ -18,4 +26,5 @@ class FooterComponent {
     }
 }
 
+// Export a single instance
 module.exports = new FooterComponent();

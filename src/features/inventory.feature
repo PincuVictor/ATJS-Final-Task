@@ -1,6 +1,6 @@
 Feature: SauceDemo Inventory
-  As a user, I want to test the functionality of the inventory page,
-  to ensure that users can navigate and select the available items anf pages
+  As a user, I want to test the functionality of the Saucedemo inventory page,
+  to make sure that users can navigate and select the available items and pages
 
   Background:
     Given I am logged in and on the inventory page
